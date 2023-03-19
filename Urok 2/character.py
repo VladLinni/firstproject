@@ -26,8 +26,5 @@ class Character:
     def attack(self, target):
         target.get_damage(self.damage)
 
-    def is_alive(self, health):
-        if self.health <= 0:
-            return False
-        else:
-            return True
+    def is_alive(self):
+        return self.health > 0
