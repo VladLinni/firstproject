@@ -3,7 +3,7 @@ def input_int(message):
         try:
             return int(input(message))
         except ValueError:
-            print(f'Неправельное число. Попробуйте снова')
+            print(f'Неправельное число. Попробуйте снова!')
 
 
 a = input_int('Введите A:')
